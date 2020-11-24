@@ -15,5 +15,6 @@ public class LoginTest extends BaseTest {
 		loginpage.loginPageClearingtheField(UN);
 		loginpage.enterPassword(PW);
 		loginpage.clickOnLoginButton();
+		System.out.println("Git Test");
 }
 }
