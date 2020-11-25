@@ -11,12 +11,8 @@ public class LoginTest extends BaseTest {
 	public void login() throws InterruptedException
 	{
 		LoginPage loginpage = new LoginPage(driver);
-		
 		loginpage.loginPageClearingtheField(UN);
 		loginpage.enterPassword(PW);
 		loginpage.clickOnLoginButton();
-		System.out.println("Git Test Jeeth to Pull");
-		System.out.println("Git Test");
-		System.out.println("Git Test 2 devjeethu");
 }
 }
